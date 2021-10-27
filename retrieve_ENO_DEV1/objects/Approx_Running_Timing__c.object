@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Act__c</fullName>
+        <externalId>false</externalId>
+        <label>Act</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Overture</fullName>
+                    <default>false</default>
+                    <label>Overture</label>
+                </value>
+                <value>
+                    <fullName>Act I</fullName>
+                    <default>false</default>
+                    <label>Act I</label>
+                </value>
+                <value>
+                    <fullName>Act II</fullName>
+                    <default>false</default>
+                    <label>Act II</label>
+                </value>
+                <value>
+                    <fullName>Act III</fullName>
+                    <default>false</default>
+                    <label>Act III</label>
+                </value>
+                <value>
+                    <fullName>Act IV</fullName>
+                    <default>false</default>
+                    <label>Act IV</label>
+                </value>
+                <value>
+                    <fullName>Act V</fullName>
+                    <default>false</default>
+                    <label>Act V</label>
+                </value>
+                <value>
+                    <fullName>Interval 1</fullName>
+                    <default>false</default>
+                    <label>Interval 1</label>
+                </value>
+                <value>
+                    <fullName>Interval 2</fullName>
+                    <default>false</default>
+                    <label>Interval 2</label>
+                </value>
+                <value>
+                    <fullName>Interval 3</fullName>
+                    <default>false</default>
+                    <label>Interval 3</label>
+                </value>
+                <value>
+                    <fullName>Interval 4</fullName>
+                    <default>false</default>
+                    <label>Interval 4</label>
+                </value>
+                <value>
+                    <fullName>Curtain Calls</fullName>
+                    <default>false</default>
+                    <label>Curtain Calls</label>
+                </value>
+                <value>
+                    <fullName>Scene I</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene I</label>
+                </value>
+                <value>
+                    <fullName>Scene II</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene II</label>
+                </value>
+                <value>
+                    <fullName>Scene III</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene III</label>
+                </value>
+                <value>
+                    <fullName>Scene IV</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene IV</label>
+                </value>
+                <value>
+                    <fullName>Scene IX</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene IX</label>
+                </value>
+                <value>
+                    <fullName>Scene V</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene V</label>
+                </value>
+                <value>
+                    <fullName>Scene VI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene VI</label>
+                </value>
+                <value>
+                    <fullName>Scene VII</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene VII</label>
+                </value>
+                <value>
+                    <fullName>Scene VIII</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene VIII</label>
+                </value>
+                <value>
+                    <fullName>Scene X</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene X</label>
+                </value>
+                <value>
+                    <fullName>Scene XI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene XI</label>
+                </value>
+                <value>
+                    <fullName>Scene XII</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene XII</label>
+                </value>
+                <value>
+                    <fullName>Scene XIII</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene XIII</label>
+                </value>
+                <value>
+                    <fullName>Scene XIV</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene XIV</label>
+                </value>
+                <value>
+                    <fullName>Scene XV</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Scene XV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Duration_In_Mins__c</fullName>
+        <externalId>false</externalId>
+        <label>Duration (In Mins)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes/Summary</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Run__c</fullName>
+        <externalId>false</externalId>
+        <label>Run</label>
+        <referenceTo>Run__c</referenceTo>
+        <relationshipLabel>Approx Running Timings</relationshipLabel>
+        <relationshipName>Approx_Running_Timings</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Scene__c</fullName>
+        <externalId>false</externalId>
+        <label>Scene</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Act__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Scene I</fullName>
+                    <default>false</default>
+                    <label>Scene I</label>
+                </value>
+                <value>
+                    <fullName>Scene II</fullName>
+                    <default>false</default>
+                    <label>Scene II</label>
+                </value>
+                <value>
+                    <fullName>Scene III</fullName>
+                    <default>false</default>
+                    <label>Scene III</label>
+                </value>
+                <value>
+                    <fullName>Scene IV</fullName>
+                    <default>false</default>
+                    <label>Scene IV</label>
+                </value>
+                <value>
+                    <fullName>Scene V</fullName>
+                    <default>false</default>
+                    <label>Scene V</label>
+                </value>
+                <value>
+                    <fullName>Scene VI</fullName>
+                    <default>false</default>
+                    <label>Scene VI</label>
+                </value>
+                <value>
+                    <fullName>Scene VII</fullName>
+                    <default>false</default>
+                    <label>Scene VII</label>
+                </value>
+                <value>
+                    <fullName>Scene VIII</fullName>
+                    <default>false</default>
+                    <label>Scene VIII</label>
+                </value>
+                <value>
+                    <fullName>Scene IX</fullName>
+                    <default>false</default>
+                    <label>Scene IX</label>
+                </value>
+                <value>
+                    <fullName>Scene X</fullName>
+                    <default>false</default>
+                    <label>Scene X</label>
+                </value>
+                <value>
+                    <fullName>Scene XI</fullName>
+                    <default>false</default>
+                    <label>Scene XI</label>
+                </value>
+                <value>
+                    <fullName>Scene XII</fullName>
+                    <default>false</default>
+                    <label>Scene XII</label>
+                </value>
+                <value>
+                    <fullName>Scene XIII</fullName>
+                    <default>false</default>
+                    <label>Scene XIII</label>
+                </value>
+                <value>
+                    <fullName>Scene XIV</fullName>
+                    <default>false</default>
+                    <label>Scene XIV</label>
+                </value>
+                <value>
+                    <fullName>Scene XV</fullName>
+                    <default>false</default>
+                    <label>Scene XV</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene I</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene II</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene III</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene IV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene V</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene VI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene VII</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene VIII</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene IX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene X</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene XI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene XII</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene XIII</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene XIV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Act I</controllingFieldValue>
+                <controllingFieldValue>Act II</controllingFieldValue>
+                <controllingFieldValue>Act III</controllingFieldValue>
+                <controllingFieldValue>Act IV</controllingFieldValue>
+                <controllingFieldValue>Act V</controllingFieldValue>
+                <valueName>Scene XV</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Approx Running Timing</label>
+    <nameField>
+        <displayFormat>ART-{00000000}</displayFormat>
+        <label>Approx Running Timing ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Approx Running Timings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>

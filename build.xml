@@ -50,6 +50,10 @@
       <sf:retrieve username="${sf.username_ENO_DEV1}" password="${sf.password_ENO_DEV1}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl_ENO_DEV1}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieve_ENO_DEV1" unpackaged="unpackaged/package.xml"/>
     </target>
 	
+	<target name="deploy_personal developer" depends="retrieve_ENO_DEV1">
+		<sf:deploy username="${sf.username_TETO}" password="${sf.username_TETO}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl_personal_developer}" deployRoot="retrieve_ENO_DEV1" maxPoll="${sf.maxPoll}" pollWaitMillis="1000" rollbackOnError="true"/>
+    </target>
+	
 	    <target name="retrieve_TETO">
 		<mkdir dir="retrieve_TETO"/>
       <sf:retrieve username="${sf.username_TETO}" password="${sf.password_TETO}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl_ENO_DEV1}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieve_ENO_DEV1" unpackaged="unpackaged/package.xml"/>

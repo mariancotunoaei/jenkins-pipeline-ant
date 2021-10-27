@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Run_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Run_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Holds data of a Production/Show in a season.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Age_appropriateness__c</fullName>
+        <description>(eg 12+ yrs)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(eg 12+ yrs)</inlineHelpText>
+        <label>Age appropriateness</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brief_Synopsis__c</fullName>
+        <externalId>false</externalId>
+        <label>Brief Synopsis</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Build_From_A_Bare_Stage_Hrs__c</fullName>
+        <description>(hrs)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the number of hours needed to build from a bare stage</inlineHelpText>
+        <label>Build From A Bare Stage (hrs)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Build_Sessions_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Build Sessions Required</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>C_O_To_A_Bare_Stage_hrs__c</fullName>
+        <description>(hrs)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the number of hours from C/O to a bare stage</inlineHelpText>
+        <label>C/O To A Bare Stage (hrs)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Content_warnings__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Such as; racism, misogyny, death, upsetting scenes etc.</inlineHelpText>
+        <label>Content warnings</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_of_First_Build_Reservation__c</fullName>
+        <description>Lookup Rollup summary of the Date of the First associated Reservation with the type Build</description>
+        <externalId>false</externalId>
+        <label>Date of First Build Reservation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_First_Covers_Reservation__c</fullName>
+        <description>Lookup Rollup summary of the date of the First reservation with the type Covers</description>
+        <externalId>false</externalId>
+        <label>Date of First Covers Reservation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_First_Music_Rehearsal__c</fullName>
+        <description>Lookup Rollup summary of the date of the first reservation with the type &apos;Music Rehearsal&apos;</description>
+        <externalId>false</externalId>
+        <label>Date of First Music Rehearsal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_First_Production_Rehearsal__c</fullName>
+        <description>Lookup Rollup Summary of the date of the associated reservation with the type Production Rehearsal, and the earliest start date</description>
+        <externalId>false</externalId>
+        <label>Date of First Production Rehearsal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_First_S_P_Rehearsal__c</fullName>
+        <description>Lookup Rollup summary of the date of the first reservation with the type &apos;Onstage Rehearsal&apos;</description>
+        <externalId>false</externalId>
+        <label>Date of First S&amp;P Rehearsal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Extreme_Violence__c</fullName>
+        <externalId>false</externalId>
+        <label>Extreme Violence</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Performance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>First Performance Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Flashing_Lights_Warnings__c</fullName>
+        <externalId>false</externalId>
+        <label>Flashing Lights Warnings</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Instrumentation__c</fullName>
+        <description>[eg Nixon: 2[1.picc].2[1.cor].3[Ebcl.2.bcl].0 4sax(S,2A,Bar) 0.3.3.0 1Perc str(min:6.6.4.4.2)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>[eg Nixon: 2[1.picc].2[1.cor].3[Ebcl.2.bcl].0 4sax(S,2A,Bar) 0.3.3.0 1Perc str(min:6.6.4.4.2)</inlineHelpText>
+        <label>Instrumentation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Last_Performance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Performance Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Loud_And_Sudden_Noises__c</fullName>
+        <externalId>false</externalId>
+        <label>Loud And Sudden Noises</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Children__c</fullName>
+        <externalId>false</externalId>
+        <label>No. Of Children</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Dancers__c</fullName>
+        <externalId>false</externalId>
+        <label>No. Of Dancers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Dressing_Rooms_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>No. Of Dressing Rooms Required</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_ENO_Chorus_Used__c</fullName>
+        <description>Incl. breakdown of SATB</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Incl. breakdown of SATB</inlineHelpText>
+        <label>No. Of ENO Chorus Used</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Extra_Chorus_Used__c</fullName>
+        <description>incl breakdown of SATB</description>
+        <externalId>false</externalId>
+        <inlineHelpText>incl breakdown of SATB</inlineHelpText>
+        <label>No. Of Extra Chorus Used</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Trailers_Required__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>(SPC)</inlineHelpText>
+        <label>No. Of Trailers Required</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_Actors__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of Actors</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Chorus_Production_Reservations__c</fullName>
+        <description>Lookup Rollup summary of the number of associated reservations with the reservation type &apos;Chorus Production&apos;</description>
+        <externalId>false</externalId>
+        <label>Number of Chorus Production Reservations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Chorus_Rep_Reservations__c</fullName>
+        <description>Lookup Rollup summary of the number of associated reservations with the type &apos;Chorus Reps&apos;</description>
+        <externalId>false</externalId>
+        <label>Number of Chorus Rep Reservations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_DR_Rehearsals__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of DR Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Evening_Performances__c</fullName>
+        <description>Lookup Roll up summary count of the number of associated reservations with the type Performance Evening</description>
+        <externalId>false</externalId>
+        <label>Number of Evening Performances</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Matinee_Performances__c</fullName>
+        <description>Lookup Roll up summary to count the number of Matinee Performances</description>
+        <externalId>false</externalId>
+        <label>Number of Matinee Performances</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Orchestral_Rehearsals__c</fullName>
+        <description>Lookup Rollupsummary of the number of associated reservations with the type Orchestral rehearsals</description>
+        <externalId>false</externalId>
+        <label>Number of Orchestral Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_PDR_Rehearsals__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of PDR Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Performances__c</fullName>
+        <description>Populated by the Declarative Lookup Rollup summary tool</description>
+        <externalId>false</externalId>
+        <label>Number of Performances</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_S_O_Rehearsals__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of S&amp;O Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_S_P_Rehearsals__c</fullName>
+        <description>Lookup Rollup summary of the number of associated reservations with the type S&amp;P</description>
+        <externalId>false</externalId>
+        <label>Number of S&amp;P Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Sitz_Reservations__c</fullName>
+        <description>Lookup Rollup summary field for the number of associated reservations with the type &apos;Sitz&apos;</description>
+        <externalId>false</externalId>
+        <label>Number of Sitz Reservations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Technical_Rehearsals__c</fullName>
+        <description>Lookup Rollup Summary of the Number of associated Reservations with the type &apos;Technical Rehearsal&apos;</description>
+        <externalId>false</externalId>
+        <label>Number of Technical Rehearsals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Performers__c</fullName>
+        <description>(eg circus/acrobats etc)</description>
+        <externalId>false</externalId>
+        <label>Other Performers</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Particular_position_required_for_BSL_int__c</fullName>
+        <description>If no appropriate position etc</description>
+        <externalId>false</externalId>
+        <label>Position required for BSL interpreter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Performance_Special_factors_onstage__c</fullName>
+        <description>(eg 5 cars in Carmen require dock to be clear around shows)</description>
+        <externalId>false</externalId>
+        <label>Performance Special Factors onstage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Show_Action_Before_Curtain_Up_Time__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>(mins before curtain up and description)</inlineHelpText>
+        <label>Pre Show Action Before Curtain Up Time?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Production_Category__c</fullName>
+        <description>eg Opera Lover Favourite/ Baroque</description>
+        <externalId>false</externalId>
+        <label>Production Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Production__c</fullName>
+        <externalId>false</externalId>
+        <label>Production</label>
+        <referenceTo>Production__c</referenceTo>
+        <relationshipLabel>Runs</relationshipLabel>
+        <relationshipName>Runs</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Rehearsal_Special_Factors__c</fullName>
+        <description>(eg revolve required in rehearsal room)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. revolve required in rehearsal room</inlineHelpText>
+        <label>Rehearsal Special Factors</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SPX__c</fullName>
+        <description>(guns/naked flame etc)</description>
+        <externalId>false</externalId>
+        <label>SPX</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Season__c</fullName>
+        <externalId>false</externalId>
+        <label>Season</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>95/96</fullName>
+                    <default>false</default>
+                    <label>95/96</label>
+                </value>
+                <value>
+                    <fullName>96/97</fullName>
+                    <default>false</default>
+                    <label>96/97</label>
+                </value>
+                <value>
+                    <fullName>97/98</fullName>
+                    <default>false</default>
+                    <label>97/98</label>
+                </value>
+                <value>
+                    <fullName>98/99</fullName>
+                    <default>false</default>
+                    <label>98/99</label>
+                </value>
+                <value>
+                    <fullName>99/00</fullName>
+                    <default>false</default>
+                    <label>99/00</label>
+                </value>
+                <value>
+                    <fullName>00/01</fullName>
+                    <default>false</default>
+                    <label>00/01</label>
+                </value>
+                <value>
+                    <fullName>01/02</fullName>
+                    <default>false</default>
+                    <label>01/02</label>
+                </value>
+                <value>
+                    <fullName>03/04</fullName>
+                    <default>false</default>
+                    <label>03/04</label>
+                </value>
+                <value>
+                    <fullName>05/06</fullName>
+                    <default>false</default>
+                    <label>05/06</label>
+                </value>
+                <value>
+                    <fullName>07/08</fullName>
+                    <default>false</default>
+                    <label>07/08</label>
+                </value>
+                <value>
+                    <fullName>08/09</fullName>
+                    <default>false</default>
+                    <label>08/09</label>
+                </value>
+                <value>
+                    <fullName>09/10</fullName>
+                    <default>false</default>
+                    <label>09/10</label>
+                </value>
+                <value>
+                    <fullName>10/11</fullName>
+                    <default>false</default>
+                    <label>10/11</label>
+                </value>
+                <value>
+                    <fullName>11/12</fullName>
+                    <default>false</default>
+                    <label>11/12</label>
+                </value>
+                <value>
+                    <fullName>12/13</fullName>
+                    <default>false</default>
+                    <label>12/13</label>
+                </value>
+                <value>
+                    <fullName>13/14</fullName>
+                    <default>false</default>
+                    <label>13/14</label>
+                </value>
+                <value>
+                    <fullName>14/15</fullName>
+                    <default>false</default>
+                    <label>14/15</label>
+                </value>
+                <value>
+                    <fullName>15/16</fullName>
+                    <default>false</default>
+                    <label>15/16</label>
+                </value>
+                <value>
+                    <fullName>16/17</fullName>
+                    <default>false</default>
+                    <label>16/17</label>
+                </value>
+                <value>
+                    <fullName>17/18</fullName>
+                    <default>false</default>
+                    <label>17/18</label>
+                </value>
+                <value>
+                    <fullName>18/19</fullName>
+                    <default>false</default>
+                    <label>18/19</label>
+                </value>
+                <value>
+                    <fullName>19/20</fullName>
+                    <default>false</default>
+                    <label>19/20</label>
+                </value>
+                <value>
+                    <fullName>20/21</fullName>
+                    <default>false</default>
+                    <label>20/21</label>
+                </value>
+                <value>
+                    <fullName>21/22</fullName>
+                    <default>false</default>
+                    <label>21/22</label>
+                </value>
+                <value>
+                    <fullName>22/23</fullName>
+                    <default>false</default>
+                    <label>22/23</label>
+                </value>
+                <value>
+                    <fullName>23/24</fullName>
+                    <default>false</default>
+                    <label>23/24</label>
+                </value>
+                <value>
+                    <fullName>24/25</fullName>
+                    <default>false</default>
+                    <label>24/25</label>
+                </value>
+                <value>
+                    <fullName>25/26</fullName>
+                    <default>false</default>
+                    <label>25/26</label>
+                </value>
+                <value>
+                    <fullName>26/27</fullName>
+                    <default>false</default>
+                    <label>26/27</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sexual_or_Explicit_Content_Nudity__c</fullName>
+        <externalId>false</externalId>
+        <label>Sexual or Explicit Content / Nudity</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strong_Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Strong Language</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Studio_dur_no_of_sessions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Eg 4 weeks/ 41 sessions</inlineHelpText>
+        <label>Studio (dur &amp; no of sessions)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Total_Duration__c</fullName>
+        <description>Sum of all Approx Run Times in Minutes</description>
+        <externalId>false</externalId>
+        <label>Total Duration (in Minutes)</label>
+        <summarizedField>Approx_Running_Timing__c.Duration_In_Mins__c</summarizedField>
+        <summaryForeignKey>Approx_Running_Timing__c.Run__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Run</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Run Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Runs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

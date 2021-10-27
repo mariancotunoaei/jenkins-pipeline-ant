@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Wig_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Wig_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Across_Nape_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Across Nape (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Across_Occipital_Bone_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Across Occipital Bone (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active_Performer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Active Performer</label>
+        <referenceTo>Performer__c</referenceTo>
+        <relationshipLabel>Wigs (Active Performer)</relationshipLabel>
+        <relationshipName>Wigs1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Any_Specific_Style_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Any Specific Style Other</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Any_Specific_Style__c</fullName>
+        <externalId>false</externalId>
+        <label>Any Specific Style</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toupee</fullName>
+                    <default>false</default>
+                    <label>Toupee</label>
+                </value>
+                <value>
+                    <fullName>Bob</fullName>
+                    <default>false</default>
+                    <label>Bob</label>
+                </value>
+                <value>
+                    <fullName>No specific style</fullName>
+                    <default>false</default>
+                    <label>No specific style</label>
+                </value>
+                <value>
+                    <fullName>Piece</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approx_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    NOT(ISNULL(Date_of_Creation__c)), /* Condition to check to make sure Date_of_Creation__c is not null */
+    TEXT(FLOOR((TODAY()-Date_of_Creation__c)/365.2425)) &amp; &quot; year(s) &quot; &amp; 
+    TEXT(FLOOR(MOD((TODAY()-Date_of_Creation__c),365.2425)/30)) &amp; &quot; month(s)&quot;, /* Value IF True */
+    &quot;&quot; /* Value IF False */
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approx Age</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Block_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Block Size</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>52</fullName>
+                    <default>false</default>
+                    <label>52</label>
+                </value>
+                <value>
+                    <fullName>54</fullName>
+                    <default>false</default>
+                    <label>54</label>
+                </value>
+                <value>
+                    <fullName>56</fullName>
+                    <default>false</default>
+                    <label>56</label>
+                </value>
+                <value>
+                    <fullName>58</fullName>
+                    <default>false</default>
+                    <label>58</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+                <value>
+                    <fullName>62</fullName>
+                    <default>false</default>
+                    <label>62</label>
+                </value>
+                <value>
+                    <fullName>64</fullName>
+                    <default>false</default>
+                    <label>64</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Circumference_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Circumference (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Colour_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Colour Other</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Colour__c</fullName>
+        <externalId>false</externalId>
+        <label>Colour</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>White</fullName>
+                    <default>false</default>
+                    <label>White</label>
+                </value>
+                <value>
+                    <fullName>Light Blonde</fullName>
+                    <default>false</default>
+                    <label>Light Blonde</label>
+                </value>
+                <value>
+                    <fullName>Dark Blonde</fullName>
+                    <default>false</default>
+                    <label>Dark Blonde</label>
+                </value>
+                <value>
+                    <fullName>Light Brown</fullName>
+                    <default>false</default>
+                    <label>Light Brown</label>
+                </value>
+                <value>
+                    <fullName>Medium Brown</fullName>
+                    <default>false</default>
+                    <label>Medium Brown</label>
+                </value>
+                <value>
+                    <fullName>Dark Brown</fullName>
+                    <default>false</default>
+                    <label>Dark Brown</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+                <value>
+                    <fullName>Salt &amp; Pepper</fullName>
+                    <default>false</default>
+                    <label>Salt &amp; Pepper</label>
+                </value>
+                <value>
+                    <fullName>Grey</fullName>
+                    <default>false</default>
+                    <label>Grey</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Condition</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Useable</fullName>
+                    <default>false</default>
+                    <label>Useable</label>
+                </value>
+                <value>
+                    <fullName>Poor</fullName>
+                    <default>false</default>
+                    <label>Poor</label>
+                </value>
+                <value>
+                    <fullName>Requires Repair</fullName>
+                    <default>false</default>
+                    <label>Requires Repair</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cool__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cool</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cost_to_Make_Wig__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost to Make Wig</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Current_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Location</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Date_Taken__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Taken</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Creation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of Creation (if known)</inlineHelpText>
+        <label>Date of Creation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Details_Of_Any_Repair_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Details Of Any Repair Required</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Directions__c</fullName>
+        <externalId>false</externalId>
+        <label>Directions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Ear_to_Ear_around_Back_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Ear to Ear around Back (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ear_to_Ear_over_Top_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Ear to Ear over Top (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ear_to_Nape_Left_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Ear to Nape Left (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ear_to_Nape_Right_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Ear to Nape Right (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ear_to_Nape_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Ear to Nape (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Elastic_Piece__c</fullName>
+        <externalId>false</externalId>
+        <label>Elastic / Piece?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Piece</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>Elastic</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Elastic</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Foundation_Material__c</fullName>
+        <externalId>false</externalId>
+        <label>Foundation Material</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asian Lace</fullName>
+                    <default>false</default>
+                    <label>Asian Lace</label>
+                </value>
+                <value>
+                    <fullName>Terylene</fullName>
+                    <default>false</default>
+                    <label>Terylene</label>
+                </value>
+                <value>
+                    <fullName>Swiss Front Lace</fullName>
+                    <default>false</default>
+                    <label>Swiss Front Lace</label>
+                </value>
+                <value>
+                    <fullName>Caul Net</fullName>
+                    <default>false</default>
+                    <label>Caul Net</label>
+                </value>
+                <value>
+                    <fullName>Elastic Webbing</fullName>
+                    <default>false</default>
+                    <label>Elastic Webbing</label>
+                </value>
+                <value>
+                    <fullName>Thermo Lace</fullName>
+                    <default>false</default>
+                    <label>Thermo Lace</label>
+                </value>
+                <value>
+                    <fullName>30 Denier Swiss Lace</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>30 Denier Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>40 Denier Swiss Lace</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>40 Denier Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>Fine Lace</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fine Lace</label>
+                </value>
+                <value>
+                    <fullName>HD Swiss Lace</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>HD Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>Hard Front</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Hard Front</label>
+                </value>
+                <value>
+                    <fullName>Lace</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lace</label>
+                </value>
+                <value>
+                    <fullName>Machine</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Machine</label>
+                </value>
+                <value>
+                    <fullName>No Front</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>No Front</label>
+                </value>
+                <value>
+                    <fullName>Pull-on Machine Weft</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pull-on Machine Weft</label>
+                </value>
+                <value>
+                    <fullName>Pull-on with Lace Front</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pull-on with Lace Front</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Foundation_Style__c</fullName>
+        <externalId>false</externalId>
+        <label>Foundation Style</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Circular Crown</fullName>
+                    <default>false</default>
+                    <label>Circular Crown</label>
+                </value>
+                <value>
+                    <fullName>Darted Nape</fullName>
+                    <default>false</default>
+                    <label>Darted Nape</label>
+                </value>
+                <value>
+                    <fullName>Open Nape / Toupee</fullName>
+                    <default>false</default>
+                    <label>Open Nape / Toupee</label>
+                </value>
+                <value>
+                    <fullName>Piece / Diamond Mesh / Switch</fullName>
+                    <default>false</default>
+                    <label>Piece / Diamond Mesh / Switch</label>
+                </value>
+                <value>
+                    <fullName>Backfall / 3/4</fullName>
+                    <default>false</default>
+                    <label>Backfall / 3/4</label>
+                </value>
+                <value>
+                    <fullName>Bought-in</fullName>
+                    <default>false</default>
+                    <label>Bought-in</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>ENO/Campbell Young</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ENO/Campbell Young</label>
+                </value>
+                <value>
+                    <fullName>Old Style</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Old Style</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Foundation__c</fullName>
+        <externalId>false</externalId>
+        <label>Foundation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Fringe__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fringe</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Front_Material__c</fullName>
+        <externalId>false</externalId>
+        <label>Front Material</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>40 Denier Swiss Lace</fullName>
+                    <default>false</default>
+                    <label>40 Denier Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>30 Denier Swiss Lace</fullName>
+                    <default>false</default>
+                    <label>30 Denier Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>HD Swiss Lace</fullName>
+                    <default>false</default>
+                    <label>HD Swiss Lace</label>
+                </value>
+                <value>
+                    <fullName>Asian Lace</fullName>
+                    <default>false</default>
+                    <label>Asian Lace</label>
+                </value>
+                <value>
+                    <fullName>Hard Front</fullName>
+                    <default>false</default>
+                    <label>Hard Front</label>
+                </value>
+                <value>
+                    <fullName>No Front</fullName>
+                    <default>false</default>
+                    <label>No Front</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Front_to_Nape_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Front to Nape (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hair_Colouring__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Colouring</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Hair_Density__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Density</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Balding</fullName>
+                    <default>false</default>
+                    <label>Balding</label>
+                </value>
+                <value>
+                    <fullName>Sparse</fullName>
+                    <default>false</default>
+                    <label>Sparse</label>
+                </value>
+                <value>
+                    <fullName>Fine</fullName>
+                    <default>false</default>
+                    <label>Fine</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Thick</fullName>
+                    <default>false</default>
+                    <label>Thick</label>
+                </value>
+                <value>
+                    <fullName>Receding</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Receding</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hair_Length__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Length (in inches)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Short</fullName>
+                    <default>false</default>
+                    <label>Short</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Long</fullName>
+                    <default>false</default>
+                    <label>Long</label>
+                </value>
+                <value>
+                    <fullName>Extra Long</fullName>
+                    <default>false</default>
+                    <label>Extra Long</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hair_Selection__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Selection</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Hair_Texture__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Texture</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Straight</fullName>
+                    <default>false</default>
+                    <label>Straight</label>
+                </value>
+                <value>
+                    <fullName>Wavy</fullName>
+                    <default>false</default>
+                    <label>Wavy</label>
+                </value>
+                <value>
+                    <fullName>Curly</fullName>
+                    <default>false</default>
+                    <label>Curly</label>
+                </value>
+                <value>
+                    <fullName>Coily</fullName>
+                    <default>false</default>
+                    <label>Coily</label>
+                </value>
+                <value>
+                    <fullName>Curly/Pre-Curled</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Curly/Pre-Curled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hair_Type_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Type Other</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hair_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Hair Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Human</fullName>
+                    <default>false</default>
+                    <label>Human</label>
+                </value>
+                <value>
+                    <fullName>Synthetic</fullName>
+                    <default>false</default>
+                    <label>Synthetic</label>
+                </value>
+                <value>
+                    <fullName>Yak</fullName>
+                    <default>false</default>
+                    <label>Yak</label>
+                </value>
+                <value>
+                    <fullName>Mixed</fullName>
+                    <default>false</default>
+                    <label>Mixed</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Image_URL__c)), IMAGE(Image_URL__c, Wig_Label_Ref__c),&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Image</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_is_only_a_Prop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Item is only a Prop</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Knotting_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>Knotting – Back</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Knotting_Break_or_parting__c</fullName>
+        <externalId>false</externalId>
+        <label>Knotting – Break or parting</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Knotting_Front__c</fullName>
+        <externalId>false</externalId>
+        <label>Knotting - Front</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Knotting_Nape__c</fullName>
+        <externalId>false</externalId>
+        <label>Knotting – Nape</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Layered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Layered</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Length__c</fullName>
+        <externalId>false</externalId>
+        <label>Length</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Original_Performer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Original Performer</label>
+        <referenceTo>Performer__c</referenceTo>
+        <relationshipLabel>Wigs</relationshipLabel>
+        <relationshipName>Wigs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parting__c</fullName>
+        <externalId>false</externalId>
+        <label>Parting</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Centre</fullName>
+                    <default>false</default>
+                    <label>Centre</label>
+                </value>
+                <value>
+                    <fullName>Left</fullName>
+                    <default>false</default>
+                    <label>Left</label>
+                </value>
+                <value>
+                    <fullName>Right</fullName>
+                    <default>false</default>
+                    <label>Right</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Performer_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Original_Performer__r.Role__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Performer Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Permed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Permed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_curled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pre-curled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QR_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;https://chart.googleapis.com/chart?cht=qr&amp;chs=200x200&amp;chl=&quot; +
+LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + Id ,
+Name,
+200,
+200
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QR Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Replacement_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Replacement Cost</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sex__c</fullName>
+        <externalId>false</externalId>
+        <label>Sex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Unisex</fullName>
+                    <default>false</default>
+                    <label>Unisex</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>On-Stage</fullName>
+                    <default>false</default>
+                    <label>On-Stage</label>
+                </value>
+                <value>
+                    <fullName>Cage</fullName>
+                    <default>false</default>
+                    <label>Cage</label>
+                </value>
+                <value>
+                    <fullName>Show Box</fullName>
+                    <default>false</default>
+                    <label>Show Box</label>
+                </value>
+                <value>
+                    <fullName>Performer Bag</fullName>
+                    <default>false</default>
+                    <label>Performer Bag</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Temple_to_Temple_Back_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Temple to Temple Back (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Temple_to_Temple_Front_in_cm__c</fullName>
+        <externalId>false</externalId>
+        <label>Temple to Temple Front (in cm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tinted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tinted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Warm__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Warm</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Wig_Label_Ref_Number_Colour__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Red (all except Chorus/Extra Chorus)
+Black (Chorus)</inlineHelpText>
+        <label>Wig Label Ref Number Colour</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>true</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Wig_Label_Ref_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Wig Label Number</inlineHelpText>
+        <label>Wig Label Ref Number</label>
+        <length>250</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wig_Label_Ref__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Wig_Label_Ref_Number_Colour__c, &apos;Red&apos;),&apos;🔴&apos;,&apos;⚫️&apos;) +  Wig_Label_Ref_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Wig Label Ref</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Wig</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>W-{0000}</displayFormat>
+        <label>Wig Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Wigs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

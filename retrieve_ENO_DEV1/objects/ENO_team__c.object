@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>ENO_Team_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>ENO_Team_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Role_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Other</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Assistant Conductor</fullName>
+                    <default>false</default>
+                    <label>Assistant Conductor</label>
+                </value>
+                <value>
+                    <fullName>Assistant Director</fullName>
+                    <default>false</default>
+                    <label>Assistant Director</label>
+                </value>
+                <value>
+                    <fullName>Revival Director (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Revival Director (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Staff Director (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Staff Director (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Chorus Master</fullName>
+                    <default>false</default>
+                    <label>Chorus Master</label>
+                </value>
+                <value>
+                    <fullName>Stage Manager</fullName>
+                    <default>false</default>
+                    <label>Stage Manager</label>
+                </value>
+                <value>
+                    <fullName>DSM</fullName>
+                    <default>false</default>
+                    <label>DSM</label>
+                </value>
+                <value>
+                    <fullName>ASM</fullName>
+                    <default>false</default>
+                    <label>ASM</label>
+                </value>
+                <value>
+                    <fullName>Music Staff</fullName>
+                    <default>false</default>
+                    <label>Music Staff</label>
+                </value>
+                <value>
+                    <fullName>Music Library</fullName>
+                    <default>false</default>
+                    <label>Music Library</label>
+                </value>
+                <value>
+                    <fullName>Producer</fullName>
+                    <default>false</default>
+                    <label>Producer</label>
+                </value>
+                <value>
+                    <fullName>Production Manager</fullName>
+                    <default>false</default>
+                    <label>Production Manager</label>
+                </value>
+                <value>
+                    <fullName>Props Supervisor</fullName>
+                    <default>false</default>
+                    <label>Props Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Senior Props Technician</fullName>
+                    <default>false</default>
+                    <label>Senior Props Technician</label>
+                </value>
+                <value>
+                    <fullName>Lighting Supervisor</fullName>
+                    <default>false</default>
+                    <label>Lighting Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Senior LX Tech</fullName>
+                    <default>false</default>
+                    <label>Senior LX Tech</label>
+                </value>
+                <value>
+                    <fullName>Stage Supervisor</fullName>
+                    <default>false</default>
+                    <label>Stage Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Sound Supervisor</fullName>
+                    <default>false</default>
+                    <label>Sound Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Video Supervisor</fullName>
+                    <default>false</default>
+                    <label>Video Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Senior Flys Technician</fullName>
+                    <default>false</default>
+                    <label>Senior Flys Technician</label>
+                </value>
+                <value>
+                    <fullName>Drawing Office</fullName>
+                    <default>false</default>
+                    <label>Drawing Office</label>
+                </value>
+                <value>
+                    <fullName>Costume Supervisor</fullName>
+                    <default>false</default>
+                    <label>Costume Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Wardrobe Mistress/Master</fullName>
+                    <default>false</default>
+                    <label>Wardrobe Mistress/Master</label>
+                </value>
+                <value>
+                    <fullName>Wigs/Makeup Supervisor</fullName>
+                    <default>false</default>
+                    <label>Wigs/Makeup Supervisor</label>
+                </value>
+                <value>
+                    <fullName>Press Contact</fullName>
+                    <default>false</default>
+                    <label>Press Contact</label>
+                </value>
+                <value>
+                    <fullName>Marketing Manager</fullName>
+                    <default>false</default>
+                    <label>Marketing Manager</label>
+                </value>
+                <value>
+                    <fullName>Development Contact</fullName>
+                    <default>false</default>
+                    <label>Development Contact</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Run__c</fullName>
+        <externalId>false</externalId>
+        <label>Run</label>
+        <referenceTo>Run__c</referenceTo>
+        <relationshipLabel>ENO Teams</relationshipLabel>
+        <relationshipName>ENO_Teams</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Staff__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Staff</label>
+        <referenceTo>B25__Staff__c</referenceTo>
+        <relationshipLabel>ENO Teams</relationshipLabel>
+        <relationshipName>ENO_Teams</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>ENO Team</label>
+    <nameField>
+        <displayFormat>ET-{000000}</displayFormat>
+        <label>ENO Team Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>ENO Teams</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>
